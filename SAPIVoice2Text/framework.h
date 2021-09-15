@@ -13,3 +13,6 @@
 #include <malloc.h>
 #include <memory.h>
 #include <tchar.h>
+#pragma warning(disable:4996)
+#include <sphelper.h>
+#pragma warning(default:4996)
